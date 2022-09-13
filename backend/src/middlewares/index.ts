@@ -1,1 +1,1 @@
-export { asyncRouteHandler } from './asyncRoute';
+export { asyncRouteHandler } from "./asyncRoute";

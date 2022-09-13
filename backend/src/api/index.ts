@@ -1,9 +1,9 @@
-import { Router } from 'express';
-import exampleRouters from './example';
+import { Router } from "express";
+import exampleRouters from "./example";
 
 const router = Router();
-import { asyncRouteHandler } from 'middlewares';
+import { asyncRouteHandler } from "middlewares";
 
-router.use('/example', asyncRouteHandler(exampleRouters));
+router.use("/example", asyncRouteHandler(exampleRouters));
 
 export default router;

@@ -1,7 +1,7 @@
-import React, { useCallback, useEffect, useState } from 'react';
-import { Helmet } from 'react-helmet-async';
-import useStyles from './styles';
-import { useGetMessage } from 'queries/message';
+import React, { useCallback, useEffect, useState } from "react";
+import { Helmet } from "react-helmet-async";
+import useStyles from "./styles";
+import { useGetMessage } from "queries/message";
 
 export function HomePage() {
   const classes = useStyles();

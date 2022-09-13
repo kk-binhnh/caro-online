@@ -1,6 +1,6 @@
-import * as React from 'react';
-import { QueryClient, QueryClientProvider } from 'react-query';
-import RootLayout from './layouts/rootLayout';
+import * as React from "react";
+import { QueryClient, QueryClientProvider } from "react-query";
+import RootLayout from "./layouts/rootLayout";
 
 const queryClient = new QueryClient();
 

@@ -1,15 +1,15 @@
-import { createSlice } from '@reduxjs/toolkit';
+import { createSlice } from "@reduxjs/toolkit";
 
 export interface HomeState {
   message: string;
 }
 
 const initialState: HomeState = {
-  message: '',
+  message: "",
 };
 
 export const homeSlice = createSlice({
-  name: 'home',
+  name: "home",
   initialState: initialState,
   reducers: {
     changeMessage: (state, action) => {
